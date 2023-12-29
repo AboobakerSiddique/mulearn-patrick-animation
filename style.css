@@ -1,0 +1,27 @@
+body {
+    background: rgb(160, 163, 163);
+    display: flex;
+    justify-content: center;
+    }
+  
+  #patrick-container {
+    width: 90vh;
+    display: grid;
+    place-items: center;
+    grid-template-areas:
+      "a1 . ."
+      ". a2 ."
+      ". . a3";
+  }
+  
+  #patrick1 {
+    grid-area: a1;
+  }
+  
+  #patrick2 {
+    grid-area: a2;
+  }
+  
+  #patrick3 {
+    grid-area: a3;
+  }
